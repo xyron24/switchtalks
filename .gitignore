@@ -1,0 +1,28 @@
+# Planning docs: kept on this machine, never pushed
+PROJECT_PLAN.md
+IMPLEMENTATION_PLAN.md
+PRE_PLANNING_GUIDE.md
+SETUP_GUIDE.md
+improvement.md
+
+# Private build notes and raw screenshots (the blog itself is published elsewhere)
+blog/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+
+# Dependencies and runtime output
+node_modules/
+coverage/
+*.log
+npm-debug.log*
+
+# Files Switch writes into an agent's working directory
+.switch/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
