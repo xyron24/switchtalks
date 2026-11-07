@@ -33,9 +33,9 @@ The agents can't merge or force-push. Their configuration denies it, so no promp
 ├── README.md        ← you are here
 ├── LICENSE          ← MIT
 ├── .env.example     ← non-secret settings only
-├── cart-service/    ← the demo service the agents work on            (chunk B1)
-├── demo/            ← seeded bugs, reset script, demo script        (chunk B2)
-└── switch/          ← room template, room and agent instructions    (chunks B4–B5)
+├── cart-service/    ← the demo service the agents work on         
+├── demo/            ← seeded bugs, reset script, demo script     
+└── switch/          ← room template, room and agent instructions 
 ```
 
 ## Secrets
