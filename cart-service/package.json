@@ -1,0 +1,17 @@
+{
+  "name": "cart-service",
+  "version": "2.13.2",
+  "private": true,
+  "description": "Tiny demo checkout service for the Incident Room hackathon project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
