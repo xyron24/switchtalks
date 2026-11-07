@@ -26,19 +26,6 @@ The agents can't merge or force-push. Their configuration denies it, so no promp
 - **Node.js + Express**: the small demo service the agents fix
 - **Discord** (Switch's bundled Mattermost as a fallback)
 
-## Build progress
-
-Each finished chunk is pushed as its own commit.
-
-| Chunk | What | Status |
-| --- | --- | --- |
-| A2 | Repository scaffold: license, ignore rules, environment example, this README | ✅ Done |
-| B1 | `cart-service`: the demo API (health, cart, checkout) and its test suite | ⏳ Next |
-| B2 | Seeded bugs, repro script, demo reset script, agent permission configs | ⏳ |
-| B4–B5 | Room and agent instructions, and the Switch room template that creates them | ⏳ |
-| C | The end-to-end incident: triage → reproduce → approve → PR → postmortem | ⏳ |
-| D–F | Full README, reproduction guide, demo video, blog post | ⏳ |
-
 ## Repository layout (planned)
 
 ```
